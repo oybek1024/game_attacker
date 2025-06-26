@@ -40,7 +40,7 @@ const STATE: STATE_MODEL = {
 };
 
 const img = new Image();
-img.src = "../public/aim.svg";
+img.src = "./aim.svg";
 img.onload = init;
 
 function init() {
